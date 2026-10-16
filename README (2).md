@@ -6,8 +6,8 @@ A responsive, single-page tech store website built with **HTML, CSS and JavaScri
 
 | Light mode | Dark mode |
 |---|---|
-| ![Light mode - top of the page](screenshots/light-top.png) | ![Dark mode - top of the page](screenshots/dark-top.png) |
-| ![Light mode - products and pricing](screenshots/light-bottom.png) | ![Dark mode - products and pricing](screenshots/dark-bottom.png) |
+| ![Light mode - top of the page](screenshotslight-top.png) | ![Dark mode - top of the page](screenshotsdark-top.png) |
+| ![Light mode - products and pricing](screenshotslight-bottom.png) | ![Dark mode - products and pricing](screenshotsdark-bottom.png) |
 
 ## Features
 
