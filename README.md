@@ -1,1 +1,1 @@
-# Smart-Grossery
+# TecchVerse
