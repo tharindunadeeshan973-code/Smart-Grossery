@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechVerse - Web Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1 class="animated-title">Welcome to TechVerse</h1>
+    <p>Your one-stop destination for modern tech gear.</p>
+    <button onclick="toggleTheme()">Toggle Dark/Light Mode</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#features">Features</a> |
+    <a href="#gallery">Gallery</a> |
+    <a href="#pricing">Pricing</a> |
+    <a href="https://google.com" target="_blank">External Search</a>
+  </nav>
+
+  <main>
+    <!-- Section 1: About -->
+    <section id="about">
+      <h2>About Our Store</h2>
+      <p>We deliver high-quality devices designed to power your digital life.</p>
+    </section>
+
+    <!-- Section 2: List -->
+    <section id="features">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Fast Global Shipping</li>
+        <li>24/7 Technical Support</li>
+        <li>1-Year Comprehensive Warranty</li>
+        <li>Eco-Friendly Packaging</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: 5 Images -->
+    <section id="gallery">
+      <h2>Featured Products</h2>
+      <div class="image-grid">
+        <img src="img1.jfif" alt="Product 1">
+        <img src="img2.jfif" alt="Product 2">
+        <img src="img3.jfif" alt="Product 3">
+        <img src="img4.jfif" alt="Product 4">
+        <img src="img5.jfif" alt="Product 5">
+      </div>
+    </section>
+
+    <!-- Section 4: Data Table -->
+    <section id="pricing">
+      <h2>Product Catalog & Pricing</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item Name</th>
+            <th>Category</th>
+            <th>Stock Status</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Wireless Headphones</td>
+            <td>Audio</td>
+            <td>In Stock</td>
+            <td>$99.99</td>
+          </tr>
+          <tr>
+            <td>Smart Watch</td>
+            <td>Wearables</td>
+            <td>In Stock</td>
+            <td>$149.99</td>
+          </tr>
+          <tr>
+            <td>Mechanical Keyboard</td>
+            <td>Accessories</td>
+            <td>Low Stock</td>
+            <td>$79.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
